@@ -10,6 +10,12 @@
             p{
                 color:blue
             }
+            .para1{
+                color:blueviolet
+            }
+            #para2{
+                color:aqua
+            }
         </style>
         <link rel="icon" type="image/x-icon" href="https://img.favpng.com/10/16/20/flower-favicon-pink-clip-art-png-favpng-UbethTdY5N4p1kcEAjuyH6wcr.jpg">
     </head>
@@ -100,7 +106,71 @@
         </p>
 
         <!--Tables-->
-        
+        <table>
+            <tr> <!--Table Row-->
+                <th>Name</th> <!--Table Head-->
+                <th>Address</th>
+                <th>Email</th>
+            </tr>
+            <tr>
+                <td>Arjun SN</td> <!--Table Column-->
+                <td>#15, Bangalore</td>
+                <td>arjunuvlad@gmail.com</td>
+            </tr>
+            <tr>
+                <td>Arjun SN</td>
+                <td>#15, Bangalore</td>
+                <td>arjunuvlad@gmail.com</td>
+            </tr>
+        </table>
 
+        <!--Lists-->
+        <!--Unordered List-->
+        <ul>
+            <li>item1</li>
+            <li>item2</li>
+            <li>item3</li>
+        </ul>
+        <!--Ordered List-->
+        <ol>
+            <li>item1</li>
+            <li>item2</li>
+            <li>item3</li>
+        </ol>
+        <!--Description Lists-->
+        <dl>
+            <dt>Arjun</dt>
+            <dd>- Trainer</dd>
+            <dt>Chris</dt>
+            <dd>- Student learning from the trainer</dd>
+        </dl>
+
+        <!--Inline Elements-->
+        <span>Hello</span>
+        <span>World</span>
+
+        <!--Identities for Tag/Elements
+            Classes => For Styling Identities
+            Id => JavaScript Identities
+            name => data related identities
+        -->
+        <p class="para1">Paragaph 1</p>
+        <p id="para2">Paragaph 2</p>
+
+        <!--Iframes-->
+        <iframe width="420" height="315"
+            src="https://www.youtube.com/embed/tgbNymZ7vqY">
+        </iframe>
+
+        <!--JavaScript-->
+        <!--To Change DOM Element Dynamically-->
+        <script>
+            function someClick(){
+                document.getElementById('demo').innerHTML = "Change the world"
+            }
+        </script>
+        <button  onclick="someClick()">Click Me</button>
+        <p id="demo">Hello World</p>
+        
     </body>
 </html>
