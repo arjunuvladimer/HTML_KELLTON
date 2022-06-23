@@ -1,3 +1,36 @@
+/* Element as Selector */
 p{
     color:yellow
+}
+/* Class as Selector */
+.classSelector{
+    color:gold
+}
+/* ID as Selector */
+#idSelector{
+    color: blueviolet;
+}
+/* Universal  Selector */
+*{
+    color:brown
+}
+
+/* Group Selector */
+h1,p,h2{
+    color: red
+}
+
+.border{
+    border-style: solid;
+    border-width: 10px 10px 10px 10px;
+    border-radius: 5px;
+}
+
+.paddingClass{
+    padding: 10px 10px 10px 10px
+}
+
+.widthandheight{
+    width: 400px;
+    height:100px
 }

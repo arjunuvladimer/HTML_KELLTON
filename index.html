@@ -163,7 +163,7 @@
         </iframe>
 
         <!--JavaScript-->
-        <!--To Change DOM Element Dynamically-->
+        <!--To Change DOM Manipulation Element Dynamically-->
         <script>
             function someClick(){
                 document.getElementById('demo').innerHTML = "Change the world"
@@ -172,5 +172,34 @@
         <button  onclick="someClick()">Click Me</button>
         <p id="demo">Hello World</p>
         
+        <p class="classSelector">Class Selector</p>
+
+        <p id="idSelector">ID Selector</p>
+
+        <!--
+            Positioning
+                Margin => Top Right Bottom Left
+                Border => Top Right Bottom Left
+                Padding => Top Right Bottom Left
+                Content => Width and Height
+        Margin
+        1420px / 10 => 142
+        -->
+        <p style="margin-right:10px">Margin Show</p>
+
+        <!--
+            Border
+        -->
+        <h1 class="border" >Border Show</h1>
+
+        <!--
+            Padding
+        -->
+        <h1 class="paddingClass" >Padding Show</h1>
+
+        <!--
+            Content with Width and Height
+        -->
+        <h1 class="widthandheight">Width and Height Show</h1>
     </body>
 </html>
